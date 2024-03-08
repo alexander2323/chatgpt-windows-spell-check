@@ -2,7 +2,10 @@
 
 This project is a Windows desktop application that leverages ChatGPT to correct spelling and grammar directly from the clipboard. It's built using Electron, making it lightweight and easy to use. The application activates with a simple shortcut, instantly correcting text from the clipboard using ChatGPT's powerful AI capabilities.
 
-> **Note:** **Even this README.md is crafted with the help of AI, just like the rest of the program. To ensure the application works correctly with your own OpenAI account, please change the API key inside `modules/openai.js`.**
+> **Note:** Even this README.md is crafted with the help of AI, just like the rest of the program.
+>
+
+> **To ensure the application works correctly with your own OpenAI account, please change the API key inside `modules/openai.js`.**
 
 ## Features
 
