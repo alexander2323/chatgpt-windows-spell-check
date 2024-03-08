@@ -92,7 +92,7 @@ app.whenReady().then(() => {
 		if (BrowserWindow.getAllWindows().length === 0) createWindow();
 	});
 
-	globalShortcut.register("Control+b", toggleWindow);
+	globalShortcut.register("Shift+Alt+j", toggleWindow);
 });
 
 app.on("will-quit", () => {
