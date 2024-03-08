@@ -24,3 +24,5 @@ To make your life even easier, here's what you need to do:
 3. **Paste Corrected Text**: Paste the text back where you need it. (Ctrl+V, and voilà!)
 
 Remember, it's as easy as 1-2-3. Copy, click shortcut, then paste. No wands or magic words required, just your trusty shortcut.
+
+![Image description or alt text](./s.png)
