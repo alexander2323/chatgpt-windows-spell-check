@@ -34,6 +34,7 @@ function createWindow() {
 	mainWindow.on('close', (event) => {
 	    event.preventDefault(); // Prevent the window from being closed
 	    mainWindow.minimize(); // Minimize the window instead
+		mainWindow.hide();
 	}); 
 
 	createTray();
