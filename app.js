@@ -29,6 +29,12 @@ function createWindow() {
 	mainWindow.setAlwaysOnTop(true, "screen-saver");
 	mainWindow.setVisibleOnAllWorkspaces(true);
 	mainWindow.setFullScreenable(false);
+ 
+	// Listen for the close event
+	mainWindow.on('close', (event) => {
+	    event.preventDefault(); // Prevent the window from being closed
+	    mainWindow.minimize(); // Minimize the window instead
+	}); 
 
 	createTray();
 }
